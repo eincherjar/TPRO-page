@@ -628,22 +628,24 @@ img {
 
 .filter-button {
   font-size: 18px;
-  border: 1px solid #42B32F;
   border-radius: 5px;
   text-align: center;
-  color: #42B32F;
+  color: #fff;
+  background-color: transparent;
   margin-bottom: 30px;
-
+  transition: all .3s ease;
 }
 
 .filter-button:hover {
-  font-size: 18px;
-  border: 1px solid #42B32F;
-  border-radius: 5px;
-  text-align: center;
   color: #ffffff;
-  background-color: #42B32F;
+  background-color: #328f21;
 
+}
+
+.filter-button:focus {
+  color: #ffffff;
+  background-color: #d35500;
+  box-shadow: none
 }
 
 .filter-button.active {
